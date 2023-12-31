@@ -1,0 +1,29 @@
+body{
+    background:#edef ;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgb(0,0,0,0.8,),rgb(0,0,0,0.8)),url(./images/pexels-lisa-fotios-1161682.jpg);
+    background-image: url(./images/pexels-lisa-fotios-1161682.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+     margin: 200px auto 0;
+     box-shadow: 0 10px 10px rgb(0,0,0,0.2);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
